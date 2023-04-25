@@ -1,10 +1,13 @@
 import React from 'react';
 import "./style.scss";
 import { SiLinkedin, SiReact, SiRedux, SiPostgresql, SiSequelize, SiGithub, SiMongodb, SiLaravel, SiAngular } from "react-icons/si";
+
+import { FaPrayingHands } from "react-icons/fa";
+
 import { AiFillGitlab } from "react-icons/ai";
 import { DiGit } from "react-icons/di";
 import { FaNode, FaSass } from "react-icons/fa";
-import { GiDiploma } from "react-icons/gi";
+import { GiDiploma, GiMagnifyingGlass } from "react-icons/gi";
 import { GoMortarBoard } from "react-icons/go";
 import CustomButton from "../../components/CustomButton/CustomButton";
 function About() {
@@ -34,16 +37,12 @@ function About() {
                             <a className="about__presentation__linkedin" title="Linkedin" href="https://www.linkedin.com/in/corentin-couzigou-0b200b175/"><SiLinkedin title="Linkedin" /></a>
                         </div>
                         <div className="wrapper__customButton__about">
-                            <CustomButton type="button" link="/achievements" text="Mes réalisations" positionX={4} positionY={10} />
+                            <CustomButton type="button" link="/achievements" text="Pourquoi moi en tant qu'IR ?" positionX={4} positionY={10} />
                         </div>
                         <div className="about__presentation__diploma">
-                            <a target="_blank" className="card__diploma" title="Titre professionnel de développeur Web et Web mobile" href="https://drive.google.com/file/d/1MLVGYLdXbZ-ajYn2VnPR57j9S6eiJjfl/view?usp=sharing">
+                            <a target="_blank" className="card__diploma" title="Diplome d'infirmier" href="https://drive.google.com/file/d/13nVQIylW8fjyhju3QLI-6nlJ2vDqXGSF/view?usp=share_link">
                                 <GoMortarBoard />
-                                <span>Titre professionnel</span>
-                            </a>
-                            <a target="_blank" title="Certification des bonnes pratiques et du vocabulaire Web" href="https://drive.google.com/file/d/1JQFwe6qscBmqDoVegHEUmYdIFNCewF-C/view?usp=sharing" rel="noopener noreferrer" className="card__diploma">
-                                <GiDiploma />
-                                <span>Certification Opquast</span>
+                                <span>Diplome d'état infirmier</span>
                             </a>
                         </div>
                     </div>
@@ -52,7 +51,7 @@ function About() {
                 <div className="about__logo">
                     <div className="about__presentation__hello">
                         <div className="about__presentation__hello__line"> </div>{" "}
-                        <span className="about__presentation__span">Ce que je fais ?</span>
+                        <span className="about__presentation__span">Mes atouts ?</span>
                     </div>
                     <div className="about__logo__container">
 
@@ -60,10 +59,12 @@ function About() {
                             <div className="about__logo__container__image1">
                                 <SiAngular />
                             </div><div className="about__logo__container__image1">
+                                <p className="textFont">Diplomatie</p>
                                 <SiReact />
+
                             </div>
                             <div className="about__logo__container__image1">
-                                <SiRedux />
+                                <FaPrayingHands />
                             </div>
                             <div className="about__logo__container__image1">
                                 <FaSass />
@@ -79,7 +80,7 @@ function About() {
                                 <FaNode />
                             </div>
                             <div className="about__logo__container__image2">
-                                <SiPostgresql />
+                                <GiMagnifyingGlass />
                             </div>
                             <div className="about__logo__container__image2">
                                 <SiSequelize />

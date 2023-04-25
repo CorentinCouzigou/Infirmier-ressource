@@ -5,6 +5,7 @@ import CustomButton from "../../components/CustomButton/CustomButton";
 import Typewriter from "typewriter-effect";
 import Loading from '../../components/Loading/Loading';
 import homeData from './homeData';
+import { GiHamburgerMenu } from "react-icons/gi";
 
 function Accueil() {
   const [loading, setLoading] = useState(true);
@@ -22,7 +23,11 @@ function Accueil() {
         <Loading />
       </div>
       <div style={{ display: loading ? "none" : "flex" }} className="home">
+        <div className="menuburger">
+          <GiHamburgerMenu />
+        </div>
         <div className="home__container">
+
           <div className="home__presentation">
             <div className="home__presentation__container">
               <div className="home__presentation__hello">
@@ -42,7 +47,7 @@ function Accueil() {
                   onInit={(typewriter) => {
                     typewriter
                       .typeString("conseil")
-                      .pauseFor(1000)
+                      .pauseFor(900)
                       .deleteAll()
                       .typeString("ressource ?")
                       .pauseFor(1200)
@@ -52,10 +57,10 @@ function Accueil() {
                 />{" "}
               </div>{" "}
               <br />
-              <a target="_blank" rel="noopener noreferrer" title="Curriculum Vitae" href="https://drive.google.com/file/d/1MNSfYniMnEHqOxZES08VQJNnE9upLooT/view?usp=sharing"><button className="home__presentation__button"> Mon CV </button></a>
+              <a target="_blank" rel="noopener noreferrer" title="Curriculum Vitae" href="https://drive.google.com/file/d/1O5X-DtqA5hzcSr9wd-1EoAC3ZQcwUGUc/view?usp=share_link"><button className="home__presentation__button"> Mon CV </button></a>
             </div>{" "}
             <div className="wrapper__customButton__home">
-              <CustomButton type="button" link="/about" text="Pourquoi moi ?" />
+              <CustomButton type="button" link="/about" text="Qui je suis ?" />
             </div>
           </div>
           <div className="home__image">
