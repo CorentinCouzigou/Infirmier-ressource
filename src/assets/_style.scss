@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Vampiro+One&display=swap");
+@mixin for-phone-only {
+  @media screen and (max-width: 800px) {
+    @content;
+  }
+}
+@mixin for-card {
+  @media screen and (max-width: 1030px) {
+    @content;
+  }
+}
+@mixin for-tablette {
+  @media screen and (max-width: 900px) {
+    @content;
+  }
+}
+@mixin for-deviceLittleHeight {
+  @media screen and (max-height: 600px) {
+    @content;
+  }
+}
+$fontVampiro: "Vampiro One", cursive;
+$background: #060b26;
+$colorAlpha: #6fbbc6;
+$colorBeta: #d7537d;
+$colorOmega: #1a83ff;
+$colorWhite: #ffffff;
+
+// $background: #060b26;
+// $colorAlpha: #ff0000;
+// $colorBeta: #f7b801;
+// $colorOmega: #1a83ff;

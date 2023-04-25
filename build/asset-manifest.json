@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.808bed56.chunk.css",
+    "main.js": "/static/js/main.88bc31ab.chunk.js",
+    "main.js.map": "/static/js/main.88bc31ab.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d0605945.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d0605945.js.map",
+    "static/js/2.a52cb7bd.chunk.js": "/static/js/2.a52cb7bd.chunk.js",
+    "static/js/2.a52cb7bd.chunk.js.map": "/static/js/2.a52cb7bd.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.808bed56.chunk.css.map": "/static/css/main.808bed56.chunk.css.map",
+    "static/js/2.a52cb7bd.chunk.js.LICENSE.txt": "/static/js/2.a52cb7bd.chunk.js.LICENSE.txt",
+    "static/media/HFF.jpg": "/static/media/HFF.4ffd4dbd.jpg",
+    "static/media/HomeClearSky.png": "/static/media/HomeClearSky.fc396600.png",
+    "static/media/converter2.png": "/static/media/converter2.4d722575.png",
+    "static/media/deckbuilderHome.png": "/static/media/deckbuilderHome.e13dead7.png",
+    "static/media/imgHomePAge.jpg": "/static/media/imgHomePAge.2623ea04.jpg",
+    "static/media/netfluxhome.png": "/static/media/netfluxhome.26bfc1ce.png",
+    "static/media/oquiz.png": "/static/media/oquiz.b1b4418a.png",
+    "static/media/pokedexHome.png": "/static/media/pokedexHome.4aec7ccb.png",
+    "static/media/portfolio.png": "/static/media/portfolio.630b1e7b.png",
+    "static/media/todolist.png": "/static/media/todolist.294b26fa.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d0605945.js",
+    "static/js/2.a52cb7bd.chunk.js",
+    "static/css/main.808bed56.chunk.css",
+    "static/js/main.88bc31ab.chunk.js"
+  ]
+}

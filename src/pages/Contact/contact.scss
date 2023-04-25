@@ -1,0 +1,122 @@
+@import "../../assets/style";
+.contact {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &__container {
+    border: 4px solid $colorWhite;
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+    @include for-deviceLittleHeight {
+      margin-top: 3rem;
+      overflow: hidden;
+    }
+  }
+  &__form {
+    margin-top: 1rem;
+    width: 100%;
+    height: 93%;
+    overflow: auto;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    color: $colorWhite;
+
+    &__title {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    &__validation {
+      width: 100%;
+      display: flex;
+      &__button {
+        border: none;
+        width: 4rem;
+        height: 4rem;
+        border-radius: 50%;
+        background-color: $background;
+        border: 2px solid $colorWhite;
+        font-size: 0.8rem;
+        color: $colorAlpha;
+        font-weight: bold;
+        @include for-deviceLittleHeight {
+          margin-bottom: 1rem;
+        }
+      }
+      &__button:hover {
+        background-color: $colorAlpha;
+        font-weight: bold;
+        color: $colorWhite;
+        cursor: pointer;
+      }
+      &__span {
+        color: $colorWhite;
+      }
+    }
+
+    &__label {
+      color: $colorWhite;
+      font-size: 1rem;
+      margin-bottom: 0.5rem;
+    }
+    &__input {
+      border: none;
+      width: 20rem;
+      height: 1.5rem;
+      padding: 1.5rem;
+      border-radius: 2rem;
+      margin-bottom: 1rem;
+      border: 2px solid $colorAlpha;
+      color: $colorWhite;
+      background-color: $background;
+    }
+    &__input:nth-child(7n) {
+      min-width: 60%;
+      min-height: 9rem;
+      overflow: auto;
+      @include for-phone-only {
+        width: 100%;
+        min-height: 14rem;
+        overflow: auto;
+      }
+    }
+    &__input:hover {
+      background-color: $colorWhite;
+      color: $background;
+      overflow: auto;
+    }
+    &__input:focus {
+      background-color: $colorWhite;
+      color: $background;
+      overflow: auto;
+    }
+  }
+}
+
+.contact__presentation {
+  width: 50%;
+  min-height: 100%;
+  padding: 1rem;
+  border-right: 4px solid $colorWhite;
+
+  &__hello {
+    width: 100%;
+    display: flex;
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+    &__line {
+      content: "";
+      height: 3px;
+      width: 90px;
+      display: block;
+      background-color: $colorAlpha;
+      transform: translateY(0.8rem);
+    }
+  }
+  &__span {
+    color: $colorWhite;
+  }
+}
