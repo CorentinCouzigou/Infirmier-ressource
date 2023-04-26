@@ -1,0 +1,49 @@
+@import "../../assets/style";
+.container {
+  position: absolute;
+  padding: 1.5rem;
+  top: 0;
+  left: 0;
+  width: 20%;
+  height: 100%;
+  z-index: 3000;
+  background-color: $background;
+  border-right: 0.2rem $colorBeta solid;
+}
+.wrapper {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 10%;
+}
+.link {
+  text-decoration: none;
+  color: $colorAlpha;
+  &:hover {
+    cursor: pointer;
+    color: $colorBeta;
+    text-decoration: underline;
+  }
+}
+.closeButton {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  &__logo {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    font-size: 1.3rem;
+    text-align: right;
+    color: $colorAlpha;
+    &:hover {
+      cursor: pointer;
+      color: $colorBeta;
+    }
+  }
+}

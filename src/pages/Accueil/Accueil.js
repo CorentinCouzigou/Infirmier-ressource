@@ -2,6 +2,7 @@
 import React, { useState, useRef } from "react";
 import "./style.scss";
 import CustomButton from "../../components/CustomButton/CustomButton";
+import MenuBurger from "../../components/MenuBurger/MenuBurger";
 import Typewriter from "typewriter-effect";
 import Loading from '../../components/Loading/Loading';
 import homeData from './homeData';
@@ -9,6 +10,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 
 function Accueil() {
   const [loading, setLoading] = useState(true);
+  const [isOpen, setisOpen] = useState(false);
   const counter = useRef(0);
   const imageLoaded = () => {
     counter.current += 1;
@@ -17,13 +19,19 @@ function Accueil() {
       setLoading(false);
     }
   }
+  const openBurgerMenu = () => {
+    console.log('tata');
+    setisOpen(true)
+  }
   return (
     <>
       <div style={{ display: loading ? "block" : "none" }}>
         <Loading />
       </div>
+
       <div style={{ display: loading ? "none" : "flex" }} className="home">
-        <div className="menuburger">
+        <MenuBurger MenuBurger={isOpen} />
+        <div className="menuburger" onClick={openBurgerMenu}>
           <GiHamburgerMenu />
         </div>
         <div className="home__container">

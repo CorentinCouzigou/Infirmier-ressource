@@ -1,25 +1,33 @@
-import React from 'react';
+
+import React, { useState } from "react";
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
-import { MdOutlineArrowForwardIos } from "react-icons/md";
-import './CustomButton.scss';
+import { AiFillCloseCircle } from "react-icons/ai";
+import './MenuBurger.scss';
 
-export default function MenuBurger({ link, text, type }) {
-
+export default function MenuBurger({ MenuBurger }) {
+    const [isOpen, setisOpen] = useState(MenuBurger);
+    const changeStyle = () => {
+        console.log('change button click');
+        setisOpen(false);
+    }
     return (
-        <>
-            <Link className="custom__button__link" to={link} ><button type={type} className="custom__button custom__button--seeMore">{text}
-                <div className="wrapper__arrow">
-                    <MdOutlineArrowForwardIos className="arrow arrow--1" />
-                    <MdOutlineArrowForwardIos className="arrow arrow--2" />
-                    <MdOutlineArrowForwardIos className="arrow arrow--3" />
-                </div>
-            </button></Link>
+        <><div className="container" style={isOpen ? { left: 0 } : { left: "100%" }}  >
+            <div className="closeButton">
+                <button className="closeButton__logo" onClick={changeStyle} >
+                    <AiFillCloseCircle />
+                </button>
+            </div>
+            <div className="wrapper">
+                <Link className="link" to="/about">Accueil</Link>
+                <Link className="link" to="/about">Qui je suis ?</Link>
+                <Link className="link" to="/about">Pourquoi moi en tant qu'IR ?</Link>
+            </div>
+
+        </div>
         </>
     );
 }
 MenuBurger.propTypes = {
-    link: PropTypes.string.isRequired,
-    text: PropTypes.string.isRequired,
-    type: PropTypes.string.isRequired,
+    MenuBurger: PropTypes.bool.isRequired,
 }
