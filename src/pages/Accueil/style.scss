@@ -26,7 +26,6 @@
   width: 50%;
   height: 80vh;
   position: relative;
-
   &__photo {
     position: absolute;
     top: 0;
@@ -197,5 +196,19 @@
   &:hover {
     cursor: pointer;
     color: white;
+  }
+}
+.logoIsis {
+  width: 4rem;
+  height: 4rem;
+  color: $colorBeta;
+  animation: rotation 2s infinite linear;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
   }
 }

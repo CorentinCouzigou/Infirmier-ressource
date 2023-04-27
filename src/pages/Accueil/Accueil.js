@@ -6,6 +6,7 @@ import MenuBurger from "../../components/MenuBurger/MenuBurger";
 import Typewriter from "typewriter-effect";
 import Loading from '../../components/Loading/Loading';
 import homeData from './homeData';
+import logoIsis from '../../assets/images/logo.svg';
 import { GiHamburgerMenu } from "react-icons/gi";
 
 function Accueil() {
@@ -21,21 +22,25 @@ function Accueil() {
   }
   const openBurgerMenu = () => {
     console.log('tata');
-    setisOpen(true)
+    setisOpen(true);
+    console.log('isOpen parent', isOpen)
+  }
+  const toggleMenu = () => {
+    setisOpen(!isOpen);
   }
   return (
     <>
       <div style={{ display: loading ? "block" : "none" }}>
-        <Loading />
+        {/* <Loading /> */}
+        <img src={logoIsis} className="logoIsis" />
       </div>
 
       <div style={{ display: loading ? "none" : "flex" }} className="home">
-        <MenuBurger MenuBurger={isOpen} />
-        <div className="menuburger" onClick={openBurgerMenu}>
+        <MenuBurger MenuBurger={isOpen} toggleMenu={toggleMenu} />
+        <div className="menuburger" onClick={toggleMenu}>
           <GiHamburgerMenu />
         </div>
         <div className="home__container">
-
           <div className="home__presentation">
             <div className="home__presentation__container">
               <div className="home__presentation__hello">

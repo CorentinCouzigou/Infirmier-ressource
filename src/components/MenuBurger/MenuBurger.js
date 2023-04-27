@@ -1,20 +1,22 @@
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import { AiFillCloseCircle } from "react-icons/ai";
 import './MenuBurger.scss';
 
-export default function MenuBurger({ MenuBurger }) {
-    const [isOpen, setisOpen] = useState(MenuBurger);
-    const changeStyle = () => {
-        console.log('change button click');
-        setisOpen(false);
-    }
+export default function MenuBurger({ MenuBurger, toggleMenu }) {
+    const [isOpen, setisOpen] = useState(true);
+
+    useEffect(() => {
+        console.log('MenuBurger child', MenuBurger);
+        console.log('isOpen child', isOpen);
+
+    })
     return (
-        <><div className="container" style={isOpen ? { left: 0 } : { left: "100%" }}  >
+        <><div className={`container ${MenuBurger ? "showMenu" : "disableMenu"}`}  >
             <div className="closeButton">
-                <button className="closeButton__logo" onClick={changeStyle} >
+                <button className="closeButton__logo" onClick={toggleMenu} >
                     <AiFillCloseCircle />
                 </button>
             </div>
@@ -23,11 +25,11 @@ export default function MenuBurger({ MenuBurger }) {
                 <Link className="link" to="/about">Qui je suis ?</Link>
                 <Link className="link" to="/about">Pourquoi moi en tant qu'IR ?</Link>
             </div>
-
         </div>
         </>
     );
 }
 MenuBurger.propTypes = {
     MenuBurger: PropTypes.bool.isRequired,
+    toggleMenu: PropTypes.func.isRequired,
 }
