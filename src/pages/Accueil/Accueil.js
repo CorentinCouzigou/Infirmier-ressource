@@ -30,16 +30,15 @@ function Accueil() {
   }
   return (
     <>
+      <div className="menuburger" onClick={toggleMenu}>
+        <GiHamburgerMenu />
+      </div>
+        <MenuBurger MenuBurger={isOpen} toggleMenu={toggleMenu} />
       <div style={{ display: loading ? "block" : "none" }}>
         {/* <Loading /> */}
         <img src={logoIsis} className="logoIsis" />
       </div>
-
       <div style={{ display: loading ? "none" : "flex" }} className="home">
-        <MenuBurger MenuBurger={isOpen} toggleMenu={toggleMenu} />
-        <div className="menuburger" onClick={toggleMenu}>
-          <GiHamburgerMenu />
-        </div>
         <div className="home__container">
           <div className="home__presentation">
             <div className="home__presentation__container">

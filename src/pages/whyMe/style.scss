@@ -190,3 +190,36 @@
     color: white;
   }
 }
+.logoArrow {
+  width: 1.5rem;
+  height: 1.5rem;
+  vertical-align: -6px;
+  margin-right: 4px;
+}
+
+.firstText {
+  animation: 2s linear logoAnimedLeft;
+}
+@keyframes logoAnimedLeft {
+  0% {
+    transform: translate(-300%);
+  }
+  100% {
+    transform: translate(0rem);
+  }
+}
+.secondText {
+  transform: translate(-300%);
+  animation: 2s linear logoAnimedLeft;
+  animation-delay: 4s;
+}
+@keyframes logoAnimedLeft {
+  0% {
+    visibility: visible;
+    transform: translate(-300%);
+  }
+  100% {
+    visibility: visible;
+    transform: translate(0rem);
+  }
+}

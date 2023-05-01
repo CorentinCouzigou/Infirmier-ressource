@@ -24,7 +24,6 @@
     align-items: flex-start;
     flex-direction: column;
     color: $colorWhite;
-
     &__title {
       font-size: 2rem;
       margin-bottom: 1rem;
@@ -95,6 +94,9 @@
     }
   }
 }
+.--textarea {
+  height: 10rem;
+}
 
 .contact__presentation {
   width: 50%;
@@ -112,11 +114,12 @@
       height: 3px;
       width: 90px;
       display: block;
-      background-color: $colorAlpha;
+      background-color: $colorBeta;
       transform: translateY(0.8rem);
     }
   }
   &__span {
+    margin-left: 10px;
     color: $colorWhite;
   }
 }

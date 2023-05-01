@@ -1,11 +1,14 @@
 @import "../../assets/style";
 .container {
   padding: 1.5rem;
-  width: 20%;
+  width: 15%;
   height: 100%;
   z-index: 3000;
   background-color: $background;
   border-right: 0.2rem $colorBeta solid;
+  @include for-phone-only {
+    width: 30%;
+  }
 }
 .showMenu {
   position: absolute;
@@ -17,7 +20,7 @@
   position: absolute;
   top: 0;
   left: -100%;
-  transition:all 1.6s ease-in-out;
+  transition: all 1.6s ease-in-out;
 }
 .wrapper {
   margin-top: 2rem;
@@ -27,6 +30,7 @@
   height: 10%;
 }
 .link {
+  margin-top: 1rem;
   text-decoration: none;
   color: $colorAlpha;
   &:hover {
@@ -54,5 +58,23 @@
       cursor: pointer;
       color: $colorBeta;
     }
+  }
+}
+.logoIsisClose {
+  width: 1.5rem;
+  height: 1.5rem;
+  color: $colorAlpha;
+  animation: rotation 2s infinite linear;
+  &:hover {
+    color: $colorBeta;
+  }
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
   }
 }

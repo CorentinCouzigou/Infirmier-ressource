@@ -1,18 +1,24 @@
-import React from 'react';
+import React, { useState } from 'react';
 import "./style.scss";
-import { SiLinkedin, SiReact, SiRedux, SiPostgresql, SiSequelize, SiGithub, SiMongodb, SiLaravel, SiAngular } from "react-icons/si";
-
+import MenuBurger from "../../components/MenuBurger/MenuBurger";
 import { FaPrayingHands } from "react-icons/fa";
-
-import { AiFillGitlab } from "react-icons/ai";
-import { DiGit } from "react-icons/di";
-import { FaNode, FaSass } from "react-icons/fa";
-import { GiDiploma, GiMagnifyingGlass } from "react-icons/gi";
+import { MdOutlineComputer } from "react-icons/md";
+import { HiOutlineLightBulb } from "react-icons/hi";
+import {  GiMagnifyingGlass, GiMedicalDrip } from "react-icons/gi";
 import { GoMortarBoard } from "react-icons/go";
 import CustomButton from "../../components/CustomButton/CustomButton";
+import { GiHamburgerMenu, GiHumanEar, GiTeacher, GiConfrontation } from "react-icons/gi";
 function About() {
+    const [isOpen, setisOpen] = useState(false);
+    const toggleMenu = () => {
+        setisOpen(!isOpen);
+    }
     return (
         <>
+            <div className="menuburger" onClick={toggleMenu}>
+                <GiHamburgerMenu />
+            </div>
+            <MenuBurger MenuBurger={isOpen} toggleMenu={toggleMenu} />
             <div className="about">
                 <div className="about__container">
                     <div className="about__presentation">
@@ -35,10 +41,10 @@ function About() {
                                     intégrer une équipe sur site pour regagner en contact humain tout en utilisant et développant
                                     mes compétences.</p>
                                 <br />
-                                <a className="about__presentation__linkedin" title="Linkedin" href="https://www.linkedin.com/in/corentin-couzigou-0b200b175/"><SiLinkedin title="Linkedin" /></a>
+                                {/* <a className="about__presentation__linkedin" title="Linkedin" href="https://www.linkedin.com/in/corentin-couzigou-0b200b175/"><SiLinkedin title="Linkedin" /></a> */}
                             </div>
                             <div className="wrapper__customButton__about">
-                                <CustomButton type="button" link="/achievements" text="Pourquoi moi en tant qu'IR ?" positionX={4} positionY={10} />
+                                <CustomButton type="button" link="/whyMe" text="Pourquoi moi en tant qu'IR ?" positionX={4} positionY={10} />
                             </div>
                             <div className="about__presentation__diploma">
                                 <a target="_blank" className="card__diploma" title="Diplome d'infirmier" href="https://drive.google.com/file/d/13nVQIylW8fjyhju3QLI-6nlJ2vDqXGSF/view?usp=share_link">
@@ -58,36 +64,39 @@ function About() {
 
                             <div className="about__logo__container__column">
                                 <div className="about__logo__container__image1">
-                                    <SiAngular />
+                                    <FaPrayingHands />
+                                    <p className="textFont">Diplomate</p>
                                 </div><div className="about__logo__container__image1">
-                                    <p className="textFont">Diplomatie</p>
-                                    <SiReact />
+                                    <HiOutlineLightBulb />
+                                    <p className="textFont">Curiosité intéllectuelle</p>
 
                                 </div>
                                 <div className="about__logo__container__image1">
-                                    <FaPrayingHands />
+                                    <GiMedicalDrip />
+                                    <p className="textFont">Savoir-faire</p>
                                 </div>
+
                                 <div className="about__logo__container__image1">
-                                    <FaSass />
-                                </div>
-                                <div className="about__logo__container__image1">
-                                    <DiGit />
+                                    <GiHumanEar />
+                                    <p className="textFont">Ecoute active</p>
                                 </div>
                             </div>
                             <div className="about__logo__container__column">
                                 <div className="about__logo__container__image2">
-                                    <SiLaravel />
-                                </div><div className="about__logo__container__image2">
-                                    <FaNode />
+                                    <GiTeacher />
+                                    <p className="textFont">Transmission</p>
                                 </div>
                                 <div className="about__logo__container__image2">
                                     <GiMagnifyingGlass />
+                                    <p className="textFont">Solutionneur</p>
                                 </div>
                                 <div className="about__logo__container__image2">
-                                    <SiSequelize />
+                                    <GiConfrontation />
+                                    <p className="textFont">Echange</p>
                                 </div>
                                 <div className="about__logo__container__image2">
-                                    <AiFillGitlab />
+                                    <MdOutlineComputer />
+                                    <p className="textFont">A l'aise avec l'informatique</p>
                                 </div>
                             </div>
                         </div>

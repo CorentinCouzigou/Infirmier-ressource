@@ -3,6 +3,7 @@ import React, { useState, useEffect } from "react";
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import { AiFillCloseCircle } from "react-icons/ai";
+import logoIsis from '../../assets/images/logo.svg';
 import './MenuBurger.scss';
 
 export default function MenuBurger({ MenuBurger, toggleMenu }) {
@@ -17,13 +18,14 @@ export default function MenuBurger({ MenuBurger, toggleMenu }) {
         <><div className={`container ${MenuBurger ? "showMenu" : "disableMenu"}`}  >
             <div className="closeButton">
                 <button className="closeButton__logo" onClick={toggleMenu} >
-                    <AiFillCloseCircle />
+                    <img src={logoIsis} className="logoIsisClose" />
                 </button>
             </div>
             <div className="wrapper">
-                <Link className="link" to="/about">Accueil</Link>
+                <Link className="link" to="/">Accueil</Link>
                 <Link className="link" to="/about">Qui je suis ?</Link>
-                <Link className="link" to="/about">Pourquoi moi en tant qu'IR ?</Link>
+                <Link className="link" to="/whyMe">Pourquoi moi en tant qu'IR?</Link>
+                <Link className="link" to="/contact">Travaillons ensemble?</Link>
             </div>
         </div>
         </>
