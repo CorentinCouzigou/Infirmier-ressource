@@ -209,9 +209,10 @@
   }
 }
 .secondText {
-  transform: translate(-300%);
+  visibility: hidden;
   animation: 2s linear logoAnimedLeft;
   animation-delay: 4s;
+  animation-fill-mode: forwards;
 }
 @keyframes logoAnimedLeft {
   0% {
@@ -222,4 +223,29 @@
     visibility: visible;
     transform: translate(0rem);
   }
+}
+.threeText {
+  visibility: hidden;
+  animation: 2s linear logoAnimedLeft;
+  animation-delay: 8s;
+  animation-fill-mode: forwards;
+}
+.fourText {
+  visibility: hidden;
+  animation: 2s linear logoAnimedLeft;
+  animation-delay: 12s;
+  animation-fill-mode: forwards;
+}
+.fiveText {
+  visibility: hidden;
+  animation: 2s linear logoAnimedLeft;
+  animation-delay: 16s;
+  animation-fill-mode: forwards;
+}
+
+.sixText {
+  visibility: hidden;
+  animation: 2s linear logoAnimedLeft;
+  animation-delay: 20s;
+  animation-fill-mode: forwards;
 }
