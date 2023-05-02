@@ -69,10 +69,10 @@ function Accueil() {
                 />{" "}
               </div>{" "}
               <br />
-              <a target="_blank" rel="noopener noreferrer" title="Curriculum Vitae" href="https://drive.google.com/file/d/1O5X-DtqA5hzcSr9wd-1EoAC3ZQcwUGUc/view?usp=share_link"><button className="home__presentation__button"> Mon CV </button></a>
+      
             </div>{" "}
             <div className="wrapper__customButton__home">
-              <CustomButton type="button" link="/about" text="Qui je suis ?" />
+              <CustomButton type="button" link="/about" text="Qui suis-je ?" />
             </div>
           </div>
           <div className="home__image">
