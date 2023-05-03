@@ -1,8 +1,6 @@
-
 import React, { useState, useEffect } from "react";
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
-import { AiFillCloseCircle } from "react-icons/ai";
 import logoIsis from '../../assets/images/logo.svg';
 import './MenuBurger.scss';
 

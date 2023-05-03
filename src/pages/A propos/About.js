@@ -5,11 +5,10 @@ import { FaPrayingHands } from "react-icons/fa";
 import { MdOutlineComputer } from "react-icons/md";
 import { HiOutlineLightBulb } from "react-icons/hi";
 import { BiUserVoice } from "react-icons/bi";
-
-import { GiMagnifyingGlass, GiMedicalDrip, GiRearAura } from "react-icons/gi";
+import { GiMagnifyingGlass, GiMedicalDrip,} from "react-icons/gi";
 import { GoMortarBoard } from "react-icons/go";
 import CustomButton from "../../components/CustomButton/CustomButton";
-import { GiHamburgerMenu, GiHumanEar, GiTeacher, GiConfrontation } from "react-icons/gi";
+import { GiHamburgerMenu, GiHumanEar, GiTeacher} from "react-icons/gi";
 function About() {
     const [isOpen, setisOpen] = useState(false);
     const toggleMenu = () => {

@@ -2,7 +2,6 @@ import React, { useState, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import MenuBurger from "../../components/MenuBurger/MenuBurger";
 import { schema } from '../../validation/contact';
-import { FaRegHandshake, FaHandshake } from "react-icons/fa";
 import emailjs from 'emailjs-com';
 import { GiHamburgerMenu } from "react-icons/gi";
 import './contact.scss';
