@@ -23,9 +23,9 @@ export default function MenuBurger({ MenuBurger, toggleMenu }) {
             </div>
             <div className="wrapper">
                 <Link className="link" to="/">Accueil</Link>
-                <Link className="link" to="/about">Qui je suis ?</Link>
+                <Link className="link" to="/about">Qui suis-je?</Link>
                 <Link className="link" to="/whyMe">Pourquoi moi en tant qu'IR?</Link>
-                <Link className="link" to="/contact">Travaillons ensemble?</Link>
+                <Link className="link" to="/contact">Travaillons ensemble</Link>
             </div>
         </div>
         </>
