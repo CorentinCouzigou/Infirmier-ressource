@@ -74,12 +74,12 @@ function WhyMe() {
                                 <br />
                                 <br />
 
-                                <p className="fourText"> <img src={logoIsis} className="logoArrow" />En tant qu'infirmier coordinateur j'ai déjà pu participer à l'<em>élaboration ou l'application de différents protocoles </em> mais aussi <em>veiller à la mise en place des différentes procédures mis en place à l'hôpital</em>. J'ai notamment pu aider à l'élaboration et à la mise d'une nouvelle pratique à l'hôpital Montsouris "le patient debout"; permettant à un patient d'aller au bloc opératoire debout et non plus sur un branquart et ainsi diminuer le stress pré-opératoire du patient. Mon côté <em>diplomate</em> m'est utile pour permettre la bonne adoption et compréhension de ces nouvelles pratiques par les équipes.</p>
+                                <p className="fourText"> <img src={logoIsis} className="logoArrow" />En tant qu'infirmier coordinateur j'ai déjà pu participer à l'<em>élaboration ou l'application de différents protocoles </em> mais aussi veiller à la <em>mise en place</em> des différentes <em>procédures</em> mis en place à l'hôpital. J'ai notamment pu aider à l'élaboration et à la mise d'une nouvelle pratique à l'hôpital Montsouris "le patient debout"; permettant à un patient d'aller au bloc opératoire debout et non plus sur un branquart et ainsi diminuer le stress pré-opératoire du patient. Mon côté <em>diplomate</em> m'est utile pour permettre la bonne adoption et compréhension de ces nouvelles pratiques par les équipes.</p>
                                 <br />
                                 <br />
 
                                 <p className="fiveText"> <img src={logoIsis} className="logoArrow" />
-                                    Mon exercice de <em>quatre années en tant qu'IC chez Isis Diabete</em> m'a permis d'acquerir un certains nombre de connaissances. Ces dernieres me permettent d'être à l'écoute des problématiques terrain et d'être une <em>force de proposition</em> pour <em>solutioner</em> ces éléments bloquants.</p>
+                                    Mon exercice de <em>quatre années en tant qu'IC chez Isis Diabete</em> m'a permis d'acquerir un certains nombre de connaissances. Ces dernieres me permettent d'être à <em>l'écoute</em> des problématiques terrain et d'être une <em>force de proposition</em> pour <em>solutioner</em> ces éléments bloquants.</p>
                                 <br />
                                 <br />
 
