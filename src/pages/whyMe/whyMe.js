@@ -29,7 +29,7 @@ function WhyMe() {
                                 <br />
                                 <br />
                                 <br />
-                                <p className="secondText"><img src={logoIsis} className="logoArrow" /> L'infirmier ressource a aussi pour rôle d'aider au <em>recrutement</em> de nouveaux infirmiers conseil. Il doit aussi veillier à la bonne <em>intégration de ces nouveaux arrivants</em> dans une équipe. Ainsi il doit aider à la formation des nouvelles recrues mais aussi suivre leurs évolutions et garantir toute l'aide nécessaire pour faciliter cette apprentissage. Ce suivi permet d'assurer à l'infirmier arrivant d'être à l'aise sur le terrain , mais également d'assurer un niveau de prise en charge optimum aux patients.</p>
+                                <p className="secondText"><img src={logoIsis} className="logoArrow" /> L'infirmier ressource a pour rôle d'aider au <em>recrutement</em> de nouveaux infirmiers conseils. Il veille à la bonne <em>intégration des nouveaux arrivants</em> dans une équipe. Il contribue à la formation des nouvelles recrues, il suit leurs évolutions et garanti toute l'aide nécessaire pour faciliter cette apprentissage. Ce suivi permet d'assurer à l'infirmier arrivant d'être à l'aise sur le terrain, mais également d'assurer un niveau de prise en charge optimal des patients.</p>
                                 <br />
                                 <br />
 
