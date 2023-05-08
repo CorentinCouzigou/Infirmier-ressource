@@ -30,10 +30,10 @@ function Accueil() {
   }
   return (
     <>
-      <div className="menuburger" onClick={toggleMenu}>
+      <div className="menuburger" onClick={toggleMenu} style={{ display: loading ? "none" : "flex" }}>
         <GiHamburgerMenu />
       </div>
-        <MenuBurger MenuBurger={isOpen} toggleMenu={toggleMenu} />
+      <MenuBurger MenuBurger={isOpen} toggleMenu={toggleMenu} />
       <div style={{ display: loading ? "block" : "none" }}>
         {/* <Loading /> */}
         <img src={logoIsis} className="logoIsis" />
@@ -69,7 +69,7 @@ function Accueil() {
                 />{" "}
               </div>{" "}
               <br />
-      
+
             </div>{" "}
             <div className="wrapper__customButton__home">
               <CustomButton type="button" link="/about" text="Qui suis-je ?" />
