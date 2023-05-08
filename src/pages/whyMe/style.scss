@@ -32,7 +32,7 @@
 .about__presentation {
   width: 50%;
   overflow-y: auto;
-  background-color: $background;
+   background-color: $background;
   @include for-phone-only {
     width: 100%;
     border-right: none;
@@ -251,7 +251,7 @@
   animation-delay: 20s;
   animation-fill-mode: forwards;
 }
-em {
+em{
   font-weight: bold;
-  color: $colorAlpha;
+  color:$colorAlpha;
 }

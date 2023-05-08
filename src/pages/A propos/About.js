@@ -48,9 +48,9 @@ function About() {
                                 <CustomButton type="button" link="/whyMe" text="Pourquoi moi en tant qu'IR ?" positionX={4} positionY={10} />
                             </div>
                             <div className="about__presentation__diploma">
-                                <a target="_blank" className="card__diploma" title="Diplome d'infirmier" href="https://drive.google.com/file/d/13nVQIylW8fjyhju3QLI-6nlJ2vDqXGSF/view?usp=share_link">
+                                <a target="_blank" className="card__diploma" title="Diplôme d'infirmier" href="https://drive.google.com/file/d/13nVQIylW8fjyhju3QLI-6nlJ2vDqXGSF/view?usp=share_link">
                                     <GoMortarBoard />
-                                    <span>Diplome d'état infirmier</span>
+                                    <span>Diplôme d'état infirmier</span>
                                 </a>
                             </div>
                         </div>

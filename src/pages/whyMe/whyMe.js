@@ -25,7 +25,7 @@ function WhyMe() {
                         <div className="about__presentation__container">
                             <div className="about__presentation__text">
                                 <br />
-                                <p className="firstText"><img src={logoIsis} className="logoArrow" />L'infirmier ressource est le <em>garant des bonnes pratiques</em>. Il a pour mission <em>l'uniformisation les pratiques</em> afin de garantir la meilleure prise en charge patient. Ainsi il se doit d'évaluer fréquemment les pratiques de chacun ,et de proposer des axes d'amélioration , en plus de vérifier la bonne évolution des ces pratiques. Ces actions ont pour objectif  de garantir un niveau excellence pour le patient même lorsque ses suivis sont réalisés par differents infirmiers conseil. </p>
+                                <p className="firstText"><img src={logoIsis} className="logoArrow" />L'infirmier ressource est le <em>garant des bonnes pratiques</em>. Il a pour mission <em>l'uniformisation des pratiques</em> afin de garantir la meilleure prise en charge patient. Il doit évaluer fréquemment les pratiques de chacun, proposer des axes d'améliorations et vérifier la bonne évolution de ces pratiques. Ces actions ont pour objectif  de garantir un niveau d'excellence pour le patient même lorsque ses suivis thérapeutiques sont réalisés par differents infirmiers conseils. </p>
                                 <br />
                                 <br />
                                 <br />
@@ -64,9 +64,10 @@ function WhyMe() {
                         <div className="about__presentation__container">
                             <div className="about__presentation__text">
                                 <br />
-                                <p className="firstText"><img src={logoIsis} className="logoArrow" />Au cours de ma carrière j'ai déjà eu l'a chance <em>excercer des rôles à responsabilité</em>. L'une de mes missions premières étaient le respect de la qualités des prises en charge. Ainsi j'ai déjà eu en responsabilité l'implication des équipes au respecst de ces procédures. Par exemple en tant qu'infirmier coordinateur de l'unité de chirurgie ambulatoire ou de réferent de la salle d'endoscopie digestive interventionnelle, j'avais pour mission d'évaluer de garantir les bonnes pratiques au quotidien des soignants sous ma responsabilité. Etant en total <em>adhéquation avec la politique patient d'Isis Diabete</em>, il me tient à coeur de dispenser cette derniere. </p>
+                                <p className="firstText"><img src={logoIsis} className="logoArrow" />Au cours de ma carrière, j'ai déjà eu l'a chance d'<em>excercer des rôles à responsabilités</em>, notamment lors en tant qu'infirmier coordinateur de l'unité de chirurgie ambulatoire et d'infirmier référent de la salle d'endoscopie digestive interventionnelle . L'une de mes missions premières était le respect de la qualité des prises en charge et de vérifier l'implication des équipes soignantes aux différentes procédures. Etant en <em>adhéquation</em> avec la <em>politique patient d'Isis Diabete</em>, il me tient à coeur de garantir cette derniere. </p>
                                 <br />
-                                <p className="secondText"> <img src={logoIsis} className="logoArrow" />Dans mon rôle <em>d'infirmier réferent</em> en endosciopie digestive mais aussi chez en tant qu'IC chez Isis diabete, j'ai cela à toujours été un <em>plaisir de transmettre</em> et de former  les nouveaux arrivants. Ainsi j'ai déjà pu <em>m'exercer à la formation</em> et au suivi des ces nouvelles recrues et à l'évaluation des connaissances.</p>
+                                <br />
+                                <p className="secondText"> <img src={logoIsis} className="logoArrow" />J'ai toujours eu un <em>plaisir à transmettre</em> mon savoir et à former. En tant qu'infirmier référent en endosciopie digestive et infirmier conseil chez Isis diabeteque, j'ai  pu <em>m'exercer à la formation</em>, au suivi des nouvelles recrues et à l'évaluation de leurs connaissances. Former les nouveaux arrivants est enrichissant tout aussi bien pour l'apprenant que pour le formateur.</p>
                                 <br />
                                 <br />
                                 <br />
