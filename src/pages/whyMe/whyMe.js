@@ -39,7 +39,7 @@ function WhyMe() {
                                 <br />
 
 
-                                <p className="fourText"> <img src={logoIsis} className="logoArrow" /> L'infirmier ressource ayant un <em>role pivot</em> il a pour mission de <em>veillier à l'application et à la création des "process"</em> de l'entreprise. Ainsi il a pour charge de distiler la bonne compréhension de ces pratiques aux équipes et leur bonne utilisation sur le terrain. </p>
+                                <p className="fourText"> <img src={logoIsis} className="logoArrow" /> L'infirmier ressource ayant un <em>role pivot</em> il a pour mission de <em>veillier à l'application et à la création des "process"</em> de l'entreprise. Ainsi il a pour charge de distiler la bonne compréhension de ces pratiques aux équipes et leurs bonnes utilisations sur le terrain. </p>
                                 <br />
                                 <br />
                                 <br />
@@ -64,28 +64,26 @@ function WhyMe() {
                         <div className="about__presentation__container">
                             <div className="about__presentation__text">
                                 <br />
-                                <p className="firstText"><img src={logoIsis} className="logoArrow" />Au cours de ma carrière j'ai déjà pu <em>excercer dans des rôles à responsabilité</em>. L'une de mes missions premières étaient le respect de la qualités des prises en charge.  , j'ai déjà eu en responsabilité l'implication des équipes au respecst de ces procédures. Par exemple ent tant qu'infirmier coordinateur de l'unité de chirurgie ambulatoire et de la salle d'endoscopie digestive interventionnelle, j'avais pour mission d'élaboration des process en matière de désinfections du matériel. Apres l'élaboration de ces procédures, j'ai du veillier à leur apprentissage et leurs applications aux pres des équipes.   </p>
+                                <p className="firstText"><img src={logoIsis} className="logoArrow" />Au cours de ma carrière j'ai déjà eu l'a chance <em>excercer des rôles à responsabilité</em>. L'une de mes missions premières étaient le respect de la qualités des prises en charge. Ainsi j'ai déjà eu en responsabilité l'implication des équipes au respecst de ces procédures. Par exemple en tant qu'infirmier coordinateur de l'unité de chirurgie ambulatoire ou de réferent de la salle d'endoscopie digestive interventionnelle, j'avais pour mission d'évaluer de garantir les bonnes pratiques au quotidien des soignants sous ma responsabilité. Etant en total <em>adhéquation avec la politique patient d'Isis Diabete</em>, il me tient à coeur de dispenser cette derniere. </p>
+                                <br />
+                                <p className="secondText"> <img src={logoIsis} className="logoArrow" />Dans mon rôle <em>d'infirmier réferent</em> en endosciopie digestive mais aussi chez en tant qu'IC chez Isis diabete, j'ai cela à toujours été un <em>plaisir de transmettre</em> et de former  les nouveaux arrivants. Ainsi j'ai déjà pu <em>m'exercer à la formation</em> et au suivi des ces nouvelles recrues et à l'évaluation des connaissances.</p>
                                 <br />
                                 <br />
-                                <p className="secondText"> <img src={logoIsis} className="logoArrow" />Dans mon rôle <em>infirmier réferent</em> en endosciopie mais aussi chez Isis diabete, cela à toujours été un <em>plaisir de transmettre</em> et de former  les nouveaux arrivant. Ainsi j'ai déjà pu m'exercer à la formation et au suivi des ces nouvelles recrues et à l'évaluation des compétences maitrisées.</p>
                                 <br />
-                                <br />
-                                <br />
-                                <p className="threeText"> <img src={logoIsis} className="logoArrow" />Ayant d'une <em>nature curieuse</em> il m'a toujours tenu à coeur de faire évoluer mes connaissances. Lors de mon parcours, notamment chez Isis Diabete mon implication dans mon exercice m'a permis d'acquerir des solites <em>compétences techniques</em>, <em>reconnues par le corps médical</em> (hôpital St Antoine et St Joseph à Paris) et par <em>mes pairs</em>. </p>
+                                <p className="threeText"> <img src={logoIsis} className="logoArrow" />Ayant une <em>nature curieuse</em> il m'a toujours tenu à coeur de faire évoluer mes connaissances. Lors de mon parcours, notamment chez Isis Diabete, mon implication dans mon exercice m'a permis d'acquerir des solites <em>compétences techniques</em>, <em>reconnues par le corps médical</em> (hôpital St Antoine et St Joseph à Paris) et par <em>mes pairs</em>. </p>
                                 <br />
                                 <br />
 
-                                <p className="fourText"> <img src={logoIsis} className="logoArrow" />En tant qu'infirmier coordinateur j'ai déjà pu l'<em>élaboration ou l'application de différents protocoles </em> ou <em>veille à la mise en place de différentes process mis en place à l'hôpital</em>. J'ai notamment pu aider à l'élaboration et à la mise d'un nouvel pratique à l'hôpital "le patient debout" permettant à un patient d'aller au bloc opératoire debout et non plus sur un branquart et ainsi diminuer son stress pré-opératoire. Mon côté <em>diplomate</em> est un atout pour permettre la bonne adoption de ces nouvelles pratiques par les équipes.</p>
+                                <p className="fourText"> <img src={logoIsis} className="logoArrow" />En tant qu'infirmier coordinateur j'ai déjà pu participer à l'<em>élaboration ou l'application de différents protocoles </em> mais aussi <em>veiller à la mise en place des différentes procédures mis en place à l'hôpital</em>. J'ai notamment pu aider à l'élaboration et à la mise d'une nouvelle pratique à l'hôpital Montsouris "le patient debout"; permettant à un patient d'aller au bloc opératoire debout et non plus sur un branquart et ainsi diminuer le stress pré-opératoire du patient. Mon côté <em>diplomate</em> m'est utile pour permettre la bonne adoption et compréhension de ces nouvelles pratiques par les équipes.</p>
                                 <br />
                                 <br />
 
                                 <p className="fiveText"> <img src={logoIsis} className="logoArrow" />
-                                    Lors de mon exercice de <em>4ans en tant qu'IC chez Isis Diabete</em> m'a permis d'acquerir beaucoup de connaissances. Ces dernieres peuvent me permettre d'être à l'écoute des problématiques terrain et d'être<em>force de proposition</em> pour des solutions .</p>
-                                <br />
+                                    Mon exercice de <em>quatre années en tant qu'IC chez Isis Diabete</em> m'a permis d'acquerir un certains nombre de connaissances. Ces dernieres me permettent d'être à l'écoute des problématiques terrain et d'être une <em>force de proposition</em> pour <em>solutioner</em> ces éléments bloquants.</p>
                                 <br />
                                 <br />
 
-                                <p className="sixText"> <img src={logoIsis} className="logoArrow" />Ma faculté à d'avoir une <em>aisance orale</em> et d'avoir des <em>compétences en informatiques</em>, ces deux atouts me permettent de réaliser des exposées clairs sur des supports moderne permettant une meilleure transmission des informations</p>
+                                <p className="sixText"> <img src={logoIsis} className="logoArrow" />Ma faculté à avoir une <em>aisance orale</em> et de posséder un savoir et des <em>compétences en informatiques</em>, me permettent de réaliser des exposées clairs sur des supports modernes permettant une meilleure transmission des informations.</p>
                             </div>
                             <div className="wrapper__customButton__about">
                                 <CustomButton type="button" link="/contact" text="On collabore?" positionX={4} positionY={10} />
